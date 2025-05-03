@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about {
+    background-color: #127487;
+    width: 100%;
+    height: 50vh;
+}
