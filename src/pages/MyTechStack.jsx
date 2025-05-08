@@ -20,13 +20,13 @@ export default function MyTechStack() {
         body: {
             backgroundColor: '#1E201E',
             borderRadius: '16px',
-            height: 'auto',
-            color: 'white'
+            color: 'white',
+            padding: '10px'
         },
     }
     return(
-        <div style={style.body} className="container">
-            <div className="page-title text-center p-5 my-5 mx-auto">
+        <div style={style.body} className="container h-auto">
+            <div className="page-title text-center p-5 my-5 mx-auto mb-5">
                 <h1>My Tech Stack</h1>
             </div>
 
