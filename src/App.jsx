@@ -37,7 +37,6 @@ function App() {
         </Routes>
       </BrowserRouter>
       
-        <div className="container">
           <section id="home">
             <Home />
           </section>
@@ -57,8 +56,7 @@ function App() {
           <section id="contact">
             <Contact/>
           </section>
-        </div>
-
+        
     </>
   )
 }

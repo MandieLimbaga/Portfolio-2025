@@ -11,7 +11,7 @@ export default function Navbar() {
 
     const styles = {
         nav: {
-            backgroundColor: "#127487",
+            backgroundColor: "#1E201E",
             color: "white",
             opacity: "0.9"
         },
