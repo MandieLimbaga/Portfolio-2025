@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="sticky-top">
             <nav class="navbar navbar-expand-sm" style={styles.nav}>
                 <div className="container">
-                    <span class="navbar-brand mb-0 h1 text-white" style={styles.navBrand}>Mandy</span>
+                    <span class="navbar-brand mb-0 h1 text-white" style={styles.navBrand}>Mandz</span>
                 </div>
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
@@ -37,6 +37,9 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item">
                         <Link style={styles.navLinks} onClick={() => handleUrl('about')} className="nav-link" to="about" smooth duration={10}>About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link style={styles.navLinks} onClick={() => handleUrl('techStack')} className="nav-link" to="techStack" smooth duration={10}>TechStack</Link>
                     </li>
                     <li className="nav-item">
                         <Link style={styles.navLinks} onClick={() => handleUrl('projects')} className="nav-link" to="projects" smooth duration={10}>Projects</Link>
